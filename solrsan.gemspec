@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require_relatve 'lib/newgem/version'
+require_relative 'lib/newgem/version'
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Dinshaw Gobhai"]
