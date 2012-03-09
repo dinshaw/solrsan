@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/newgem/version', __FILE__)
+require_relatve 'lib/newgem/version'
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Dinshaw Gobhai"]
