@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require_relative 'lib/newgem/version'
+# require File.expand_path('../lib/newgem/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Dinshaw Gobhai"]
@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "newgem"
   gem.require_paths = ["lib"]
-  gem.version       = Newgem::VERSION
+  gem.version       = '1.2.3'
 end
